@@ -5,7 +5,13 @@
     "paths": {
       "@/*": [
         "./*"
-      ]
+      ],
+      "@assets/*": [
+        "./assets/*"
+      ],
+      "@components/*": [
+        "./components/*"
+      ],
     }
   },
   "include": [

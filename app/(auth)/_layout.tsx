@@ -1,10 +1,14 @@
+import { Slot } from 'expo-router'
 import React from 'react'
-import { Text, View } from 'react-native'
+import '../globals.css'
 
 export default function _layout() {
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-            <Text>AuthLayout</Text>
-        </View>
+
+
+        <Slot />
+
+
+
     )
 }
