@@ -1,10 +1,10 @@
-import { Slot } from 'expo-router';
-import React from 'react';
-import '../globals.css';
+import { Slot } from 'expo-router'
+import React from 'react'
 
-const backgroundImage = require('@assets/images/welcome-bg.jpg');
-export default function _layout() {
+const _layout = () => {
     return (
         <Slot />
     )
 }
+
+export default _layout

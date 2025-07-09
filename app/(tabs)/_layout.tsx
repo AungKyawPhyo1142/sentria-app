@@ -1,8 +1,9 @@
-import { Redirect, Slot } from 'expo-router'
-import React from 'react'
+import { Redirect, Slot } from 'expo-router';
+import React from 'react';
+import { StyleSheet } from 'react-native';
 
 export default function _layout() {
-    const isAuthenticated = false // Replace with actual authentication logic   
+    const isAuthenticated = false;
     if (!isAuthenticated) {
         return <Redirect href="/welcome" />
     }
@@ -10,3 +11,5 @@ export default function _layout() {
         <Slot />
     )
 }
+
+const styles = StyleSheet.create({})
