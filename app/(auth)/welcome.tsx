@@ -3,6 +3,7 @@ import { ImageBackground, Text, View } from 'react-native';
 
 const backgroundImage = require('@assets/images/welcome-bg.jpg');
 export default function WelcomeScreen() {
+    console.log(backgroundImage);
     return (
         <ImageBackground className='flex-1 items-center justify-center' source={backgroundImage}>
             <View className='flex-1 items-center justify-center bg-black/50 p-4 w-full'>

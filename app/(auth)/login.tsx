@@ -1,12 +1,13 @@
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from 'react';
+import { Text } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
-const login = () => {
+const Login = () => {
   return (
-    <View>
+    <SafeAreaView style={{ flex: 1 }}>
       <Text>login</Text>
-    </View>
-  )
-}
+    </SafeAreaView>
+  );
+};
 
-export default login
+export default Login;
